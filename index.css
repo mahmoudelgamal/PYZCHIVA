@@ -259,6 +259,13 @@ button:focus,
     height: auto;
     gap: 30px;
     padding-block-start: 40px;
+    background-image: linear-gradient(
+        to top right,
+        transparent,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url("./assets/hero-image.png");
   }
   .hero__content {
     padding-inline: 10px;
